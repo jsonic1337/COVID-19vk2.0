@@ -11,7 +11,7 @@ npm i node-fetch --save
 
 ```
 
-npm i VK-Promise@0.3.2
+npm i vk-io
 
 ```
 
