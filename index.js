@@ -10,7 +10,6 @@ vk.updates.start();
 vk.updates.on('message', (context, next) => {
     (async () => {
         if(context.isGroup == true) return
-        console.log(context.senderId);
 	if (context.text.toLowerCase().includes(nachalo)) {
         let url = 'https://thevirustracker.com/free-api?countryTotal=RU';
         let response = await fetch(url); 
